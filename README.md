@@ -1,10 +1,18 @@
+<style>
+    .img{
+        background: white;
+        margin: auto;
+        display: block;
+    }
+</style>
+
 <img src="./img/header.jpg">
 
 # Temperature Measurement System (TMS)
 
 The documentation - User Manual for this system can be downloaded from [here](./TMS-User-Manual.pdf). There you will find complete information on how to connect the device and how to use the interface. Below is a brief summary of the most important points:
 
-> [!Info]
+> [!Note]
 > If you encounter any issues, bugs in the system, or simply need assistance, the recommended approach is to create an [issue](https://github.com/GICM-UdeA/TMS-public/issues/new) in this repository with the respective label (https://github.com/GICM-UdeA/TMS-public/labels/bug, https://github.com/GICM-UdeA/TMS-public/labels/documentation, https://github.com/GICM-UdeA/TMS-public/labels/help%20wanted, https://github.com/GICM-UdeA/TMS-public/labels/question).  
 
 ## Overview
@@ -19,7 +27,7 @@ Below is an image describing the components and connectors of the TMS device.
 
 ## How to Use
 
-To use the system, you need to **install the dedicated software**. The latest available version can be downloaded from [this link](https://github.com/GICM-UdeA/TMS-project/blob/main/TMS/software/TMS_windows_v1.1_setup.exe).
+To use the system, you need to **install the dedicated software**. The latest available version can be downloaded from [here](./TMS_windows_v1.1_setup.exe).
 
 The installation process is simple; you can see a step-by-step guide in the manual. In the end, you'll have a program on your computer that opens the following graphical interface.
 
@@ -37,12 +45,3 @@ The connection process may take several seconds, and if everything goes well, yo
 > <img class="img" src="./img/conection-error.png" width="80%">
 
 If the connection is successfully established, you can use the control panel (left side of snippet c in the image) to start data collection, stop it, clear the canvas, and export the measurements for further analysis.
-
-<style>
-    .img{
-        background: white;
-        margin: auto;
-        display: block;
-    }
-</style>
-
