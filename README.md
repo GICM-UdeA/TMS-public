@@ -1,11 +1,3 @@
-<style>
-    .img{
-        background: white;
-        margin: auto;
-        display: block;
-    }
-</style>
-
 <img src="./img/header.jpg">
 
 # Temperature Measurement System (TMS)
